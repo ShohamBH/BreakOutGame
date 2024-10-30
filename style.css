@@ -1,0 +1,115 @@
+body {
+    background-color: #f6f6f6;
+    margin: 5%;
+    text-align: center;
+}
+
+#container {
+    position: relative;
+    border: 2px solid black;
+    height: 85vh;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    position: absolute;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 10%;
+    margin: 1%;
+}
+
+#must {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+
+}
+
+#ball {
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 50%;
+}
+
+#paddle_ball {
+    background-color: black;
+    bottom: 2px;
+    width: 10%;
+    height: 3%;
+    position: absolute;
+}
+
+.myblock {
+    width: 5vw;
+    height: 17px;
+    margin: 0.35%;
+    border: 1px solid black;
+}
+
+.line_div {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    text-align: center;
+    font-size: x-large;
+}
+
+a img {
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    transition: transform 0.3s;
+    border-radius: 5%;
+}
+
+a img:hover {
+    transform: scale(1.1);
+    border-color: black;
+}
+
+#to {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    transition: 2s;
+}
+
+#to:hover {
+    color: rgb(214, 36, 176);
+    font-size: 40px;
+    transition: 2s;
+}
+
+#p_r {
+    font-size: 40px;
+    color: rgb(214, 36, 176);
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+input,
+button {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
